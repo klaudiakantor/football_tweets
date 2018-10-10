@@ -21,7 +21,7 @@ The project consists of 9 main parts:
 
 ### Data
 
-Not listed project task was also resolving the problem of lack of training data - finding best training dataset with sentiment labels
+Not listed project task was also resolving the problem of lack of training data - finding best training dataset with sentiment labels.
 The *sentiment140* dataset was choosen which originated from Stanford University. This set contains tweets with sentiment labels
 which were assigned automaticaly based on emoticons - positive or negative. 
 More info on the dataset can be found from the link: http://help.sentiment140.com/for-students/ . 
@@ -50,8 +50,9 @@ To run the project you need:
 - Python 3.6
 - pip
 - Microsoft Visual C++ 14.0
+- Anaconda
 
-Create conda environment:
+Open the command line and create conda environment:
 ```
 conda create --name myenv
 ```
@@ -66,5 +67,9 @@ source activate myenv
 Install all necessary packages:
 ```
 pip install -r requirements.txt 
+```
+Run the jupyter notebook:
+```
+jupyter notebook
 ```
 And enjoy the project!
