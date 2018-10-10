@@ -1,0 +1,7 @@
+models/wiki.en.vec
+__pycache__/
+.ipynb_checkpoints/
+.env
+models/
+results/*.jpg
+results/*.png
