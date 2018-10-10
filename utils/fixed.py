@@ -23,18 +23,10 @@ MODEL_PATH = 'models'
 RESULTS_PATH = 'results'
 ENV_PATH = os.path.join(MAIN_PATH, '.env')
 SLANG_PATH = os.path.join(MAIN_PATH, DATA_PATH, 'slang-dict.txt')
+MATCH_DATA_PATH = os.path.join(MAIN_PATH,DATA_PATH,'match_data.csv')
 
-MATCH_DATA=pd.DataFrame({
-            'match':['TOT-LIV','PSG-LIV','MAN-NEW','PSG-LYO'],
-            'file_name':['TOT_LIV.csv','PSG_LIV.csv','MAN_NEW.csv','PSG_LYO.csv'],
-            'team1':['Tottenham','PSG','Manchester','PSG'],
-            'team2':['Liverpool','Liverpool','Newcastle','Lyon'],
-            'match_start':['2018-09-15 11:30:00','2018-09-18 19:00:00','2018-10-06 16:30:00','2018-10-07 19:00:00'],
-            'first_part_end':['2018-09-15 12:17','2018-09-18 19:46', '2018-10-06 17:17:00', '2018-10-07 19:49:00'],
-            'second_part_start':['2018-09-15 12:32','2018-09-18 20:01','2018-10-06 17:32:00','2018-10-07 20:04:00'],
-            'match_end':['2018-09-15 13:23','2018-09-18 20:55','2018-10-06 18:17:00','2018-10-07 20:49:00'],
-                'hashtags_team1':[['#tottenham','#thfc','#spurs',"#tottenhamhotspur"],['#psg','#parissaintgermain'],['#mufc','#manutd','#manchesterunited','#reddevils','#manunited','#redarmy','#mufcfans'],['#psg','#parissaintgermain','#psgol']],
-            'hashtags_team2':[['#liverpoolfc','#liverpool','#lfc'],['#liverpoolfc','#liverpool','#lfc'],['#newcastle','#newcastleunited','#nufc'],['#lyon','#teamol','#ol','#olympiclyon', '#olympiquelyonnais','#lyonfrance','#olympic']]})
+
+MATCH_DATA=pd.read_csv(MATCH_DATA_PATH, encoding = 'utf-8',sep=';',index_col=0)
 
 
 def load_match_data(match):    
