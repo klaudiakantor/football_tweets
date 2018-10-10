@@ -1,4 +1,4 @@
-# Fotball tweets analysis
+# Football tweets analysis
 
 This is a project developed as a final project at the Data Science bootcamp organised by Sages.
 
