@@ -23,7 +23,7 @@ The project consists of 9 main parts:
 
 Not listed project task was also resolving the problem of lack of training data - finding best training dataset with sentiment labels.
 The *sentiment140* dataset was chosen which originated from Stanford University. This set contains tweets with sentiment labels
-which were assigned automaticaly based on emoticons - positive or negative. 
+which were assigned automatically based on emoticons - positive or negative. 
 More info on the dataset can be found from the link: http://help.sentiment140.com/for-students/ . 
 The reduced version of this dataset was used in this project - 60K tweets and two sentiment classes: 0 - negative, 1 - positive.
 Football tweets were scraped by using *tweepy* python package. 
@@ -40,7 +40,7 @@ Preprocessing of the tweets includes:
 - src - directory with files containing all scripts used for preprocessing, training the models, their comparisons, sentiment prediction and results visualisation
 - utils - directory with files containing functions and constants which are used in all modules
 - models - directory in which all the models are saved
-- data - directory whith all tweets files and other data which are used as input of the project
+- data - directory with all tweets files and other data which are used as input of the project
 - results - directory containg classifiers comparison files and other directories for each match where all result files (particularly graphs) are saved
 
 
