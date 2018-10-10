@@ -22,7 +22,7 @@ The project consists of 9 main parts:
 ### Data
 
 Not listed project task was also resolving the problem of lack of training data - finding best training dataset with sentiment labels.
-The *sentiment140* dataset was choosen which originated from Stanford University. This set contains tweets with sentiment labels
+The *sentiment140* dataset was chosen which originated from Stanford University. This set contains tweets with sentiment labels
 which were assigned automaticaly based on emoticons - positive or negative. 
 More info on the dataset can be found from the link: http://help.sentiment140.com/for-students/ . 
 The reduced version of this dataset was used in this project - 60K tweets and two sentiment classes: 0 - negative, 1 - positive.
@@ -73,3 +73,10 @@ Run the jupyter notebook:
 jupyter notebook
 ```
 And enjoy the project!
+
+## References
+
+The project was based on deep research and many sources, in particular:
+1. The Rickest Ricky: [*Another Twitter sentiment analysis with Python*](https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90) - all parts, Towards Data Science. 
+2. Prateek Joshi: [*Comprehensive Hands on Guide to Twitter Sentiment Analysis with dataset and code*](https://www.analyticsvidhya.com/blog/2018/07/hands-on-sentiment-analysis-dataset-python/), Analytics Vidhya.
+3. [*Do More With Twitter Data*](https://twitterdev.github.io/do_more_with_twitter_data/finding_the_right_data.html)
