@@ -31,7 +31,7 @@ Football tweets were scraped by using *tweepy* python package.
 ### Data preprocessing
 
 Preprocessing of the tweets includes:
-- removing users names (@user_name), hashtags, punctuation, links and optionaly: stopwords, short words (with length < 2). 
+- removing users names (@user_name), hashtags, punctuation, links and optionaly: stopwords, short words (with length<2). 
 - replacing slang words with their meaning, replacing double (or more) whitespaces with one space, replacing contractions with full expressions, replacing triple and more letters with doubles
 - tokenization
 - optional: stemming
